@@ -1,6 +1,6 @@
 # README
 
-This project was created in python to do a quick conversion on data setup in the standardized RIS format to feed other data visualization softwares as Vosiwere or irumateq.
+This project was created in python to do a quick conversion on data setup in the standardized RIS format to feed other bibliological data visualization softwares as Vosiwere or Irumateq.
 
 Read more on RIS here:
 https://en.wikipedia.org/wiki/RIS_(file_format)
@@ -10,7 +10,7 @@ If any bugs or issues are found, please let contact me!
 
 ## PREREQUISITES
 
- * Python 
+ * Python [https://wiki.python.org/moin/BeginnersGuide/Download]
 
 ## HOW TO RUN
 
