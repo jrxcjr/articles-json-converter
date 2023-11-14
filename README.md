@@ -5,6 +5,8 @@ This project was created in python to do a quick conversion on data setup in the
 Read more on RIS here:
 https://en.wikipedia.org/wiki/RIS_(file_format)
 
+If any bugs or issues are found, please let contact me! 
+
 
 ## PREREQUISITES
 
@@ -12,10 +14,14 @@ https://en.wikipedia.org/wiki/RIS_(file_format)
 
 ## HOW TO RUN
 
- 1- Before running the script, put the file to be converted in this folder.
- 2- Run the command
+- Clone the project to your machine using the command 
+```
+ git clone git@github.com:jrxcjr/articles-json-converter.git
+```
+- Before running the script, put the file to be converted in this folder.
+- Run the command
   ```
    python ./converter.py
   ```
- 3- type in the file name that you put in the folder and the file name that will be output or leave it blank to have the default "output.json" name. 
- 4- Check any results to see if they match what is expected
+- type in the file name that you put in the folder and the file name that will be output or leave it blank to have the default "output.json" name. 
+- Check any results to see if they match what is expected, some manual cleanup will probably be needed.
