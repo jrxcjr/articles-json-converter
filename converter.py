@@ -44,12 +44,8 @@ def write_to_json(entries, json_path):
         json.dump(data, jsonfile, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
-    import re
-
-    input_file = "phase_2_revisao_sistematica.txt"
-    output_json = "output.json"
+    input_file = input("Enter the name of the input file: ")
+    output_json = input("Enter the name of the output JSON file (default is output.json): ") or "output.json"
 
     entries = read_entries(input_file)
     write_to_json(entries, output_json)
-
-
